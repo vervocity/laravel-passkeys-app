@@ -11,7 +11,9 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        //
+        $middleware->alias([
+            'redirect.app.user.agent' => \App\Http\Middleware\RedirectAppUserAgent::class,
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //

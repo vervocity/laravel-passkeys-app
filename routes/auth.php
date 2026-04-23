@@ -9,6 +9,7 @@ Route::middleware('guest')->group(function () {
         ->name('register');
 
     Volt::route('login', 'pages.auth.login')
+        ->middleware('redirect.app.user.agent')
         ->name('login');
 
     Volt::route('forgot-password', 'pages.auth.forgot-password')
