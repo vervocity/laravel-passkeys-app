@@ -18,6 +18,13 @@
                     >
                         Replace To Full Dashboard URL
                     </button>
+                    <button
+                        type="button"
+                        class="mt-4 ml-2 inline-flex items-center rounded-md bg-blue-700 px-3 py-2 text-sm font-semibold text-white hover:bg-blue-600"
+                        onclick="window.location.replace('myapp://open?url=https:%3a%2F%2Fpasskeys.vervo.city/dashboard')"
+                    >
+                        Open In App Deep Link
+                    </button>
                 </div>
             </div>
         </div>
