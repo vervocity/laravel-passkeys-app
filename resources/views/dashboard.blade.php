@@ -11,6 +11,13 @@
                 <div class="p-6 text-gray-900">
                     this is the dashboard
                     <p class="mt-2 text-sm text-gray-500">User Agent: {{ request()->userAgent() }}</p>
+                    <button
+                        type="button"
+                        class="mt-4 inline-flex items-center rounded-md bg-gray-900 px-3 py-2 text-sm font-semibold text-white hover:bg-gray-700"
+                        onclick="window.location.replace('{{ route('dashboard', absolute: true) }}')"
+                    >
+                        Replace To Full Dashboard URL
+                    </button>
                 </div>
             </div>
         </div>
