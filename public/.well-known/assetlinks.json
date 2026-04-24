@@ -8,7 +8,8 @@
       "namespace": "android_app",
       "package_name": "com.knapheide.portal",
       "sha256_cert_fingerprints": [
-        "06:4D:F9:7E:B1:46:C7:BB:A3:46:E3:13:A0:88:D2:A3:4C:8F:C6:E5:78:0C:AE:EC:16:70:A5:DD:54:6C:2C:E7"
+        "06:4D:F9:7E:B1:46:C7:BB:A3:46:E3:13:A0:88:D2:A3:4C:8F:C6:E5:78:0C:AE:EC:16:70:A5:DD:54:6C:2C:E7",
+        "1B:C0:62:B9:82:27:81:F0:1C:FF:8B:4C:E7:F1:F8:38:11:BC:7D:7C:13:65:9D:5C:9E:B2:00:22:C2:54:D2:DD"
       ]
     }
   }
