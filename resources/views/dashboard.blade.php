@@ -10,6 +10,7 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     this is the dashboard
+                    <p class="mt-2 text-sm text-gray-500">User Agent: {{ request()->userAgent() }}</p>
                 </div>
             </div>
         </div>

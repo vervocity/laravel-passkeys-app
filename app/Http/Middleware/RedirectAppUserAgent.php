@@ -15,7 +15,7 @@ class RedirectAppUserAgent
     {
         // Check if user is authenticated and has the specific user agent
         if (auth()->check() && $this->hasKnapheideAppUserAgent($request)) {
-            return redirect()->route('dashboard');
+            return redirect()->to(url('/dashboard'));
         }
 
         return $next($request);
